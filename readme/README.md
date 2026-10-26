@@ -37,13 +37,7 @@
 
 ## 3. 用 VS Code 打开工程
 
-选择 **文件 → 打开文件夹**，打开：
-
-```text
-d:\codename_EndDavid\ESP32\oled_demo
-```
-
-不要直接在当前的大工作区 `d:\codename_EndDavid` 里编译，ESP-IDF 插件需要以工程根目录作为工作区。
+选择 **文件 → 打开文件夹**，打开`esp32s3_sh1106_oled_demo`。
 
 ## 4. 设置芯片、串口并烧录
 
