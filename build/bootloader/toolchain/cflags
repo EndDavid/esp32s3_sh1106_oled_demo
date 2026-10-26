@@ -1,0 +1,5 @@
+"-specs=D:/codename_EndDavid/ESP32/oled_demo/build/bootloader/specs/picolibc.specs"
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero

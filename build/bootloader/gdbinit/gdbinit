@@ -1,0 +1,2 @@
+source D:/codename_EndDavid/ESP32/oled_demo/build/bootloader/gdbinit/symbols
+source D:/codename_EndDavid/ESP32/oled_demo/build/bootloader/gdbinit/connect

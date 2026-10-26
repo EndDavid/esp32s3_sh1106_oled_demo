@@ -1,0 +1,51 @@
+menu "OLED Demo Configuration"
+
+    config OLED_SDA_GPIO
+        int "OLED I2C SDA GPIO"
+        default 8
+        range 0 48
+        help
+            GPIO connected to the OLED SDA pin.
+
+    config OLED_SCL_GPIO
+        int "OLED I2C SCL GPIO"
+        default 9
+        range 0 48
+        help
+            GPIO connected to the OLED SCL pin.
+
+    config OLED_I2C_PORT
+        int "I2C port number"
+        default 0
+        range 0 1
+        help
+            I2C controller index used by the OLED.
+
+    config OLED_I2C_ADDR
+        hex "OLED I2C address"
+        default 0x3C
+        help
+            Most 4-pin OLED modules use 0x3C. If the screen stays black,
+            try 0x3D.
+
+    config OLED_I2C_SPEED_HZ
+        int "I2C clock frequency (Hz)"
+        default 400000
+        range 100000 400000
+
+    choice OLED_CONTROLLER
+        prompt "OLED controller"
+        default OLED_CTRL_SH1106
+        help
+            1.3 inch 128x64 modules are usually SH1106. Most 0.96 inch
+            modules are SSD1306. If the screen shows a shifted or
+            garbled image, try the other one.
+
+        config OLED_CTRL_SSD1306
+            bool "SSD1306"
+
+        config OLED_CTRL_SH1106
+            bool "SH1106"
+    endchoice
+
+endmenu
