@@ -22,7 +22,7 @@
 
 > 本工程默认使用 **SDA = GPIO8、SCL = GPIO9**。如果你的接法不同，见第 5 节修改。
 >
-> N16R8 的 GPIO33~GPIO37 被 Octal PSRAM 占用，不要使用。建议用 GPIO1~GPIO18、GPIO21、GPIO38~GPIO48 中未被占用的引脚。
+> N16R8 的 GPIO33-GPIO37 被 Octal PSRAM 占用，不要使用。建议用 GPIO1-GPIO18、GPIO21、GPIO38~GPIO48 中未被占用的引脚。
 
 ## 2. 安装/确认 ESP-IDF 环境
 
