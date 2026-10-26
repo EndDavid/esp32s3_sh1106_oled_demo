@@ -1,5 +1,0 @@
--mlongcalls
--fno-builtin-memcpy
--fno-builtin-memset
--fno-builtin-bzero
-"-specs=D:/codename_EndDavid/ESP32/oled_demo/build/specs/picolibc.specs"

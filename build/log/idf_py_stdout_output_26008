@@ -1,8 +1,0 @@
-Command: ninja all
-[1/4] C:\Windows\system32\cmd.exe /C "cd /D D:\codename_EndDavid\ESP32\oled_demo\build && C:\Espressif\python_env\idf6.1_py3.12_env\Scripts\python.exe D:/Espressif/.espressif/v6.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/codename_EndDavid/ESP32/oled_demo/build/partition_table/partition-table.bin D:/codename_EndDavid/ESP32/oled_demo/build/oled_demo.bin"
-oled_demo.bin binary size 0x2eda0 bytes. Smallest app partition is 0x100000 bytes. 0xd1260 bytes (82%) free.
-[2/4] Performing build step for 'bootloader'
-[1/1] C:\Windows\system32\cmd.exe /C "cd /D D:\codename_EndDavid\ESP32\oled_demo\build\bootloader && C:\Espressif\python_env\idf6.1_py3.12_env\Scripts\python.exe D:/Espressif/.espressif/v6.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 D:/codename_EndDavid/ESP32/oled_demo/build/bootloader/bootloader.bin"
-Bootloader binary size 0x52b0 bytes. 0x2d50 bytes (35%) free.
-[3/4] No install step for 'bootloader'
-[4/4] Completed 'bootloader'
